@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627CC9F51A8F3B5B000A2521 /* KeyChainServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CC9F41A8F3B5B000A2521 /* KeyChainServices.swift */; };
+		627CC9F71A909E46000A2521 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CC9F61A909E46000A2521 /* Alert.swift */; };
 		62BC6D1C1A7ACE08004A1570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D1B1A7ACE08004A1570 /* AppDelegate.swift */; };
 		62BC6D1E1A7ACE08004A1570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D1D1A7ACE08004A1570 /* ViewController.swift */; };
 		62BC6D211A7ACE08004A1570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D1F1A7ACE08004A1570 /* Main.storyboard */; };
 		62BC6D231A7ACE08004A1570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D221A7ACE08004A1570 /* Images.xcassets */; };
 		62BC6D261A7ACE08004A1570 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D241A7ACE08004A1570 /* LaunchScreen.xib */; };
 		62BC6D321A7ACE08004A1570 /* LoginNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D311A7ACE08004A1570 /* LoginNowTests.swift */; };
+		62D3F52D1A8BE0CD0026EEB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D3F52C1A8BE0CD0026EEB9 /* SystemConfiguration.framework */; };
+		62D3F52F1A8DFD960026EEB9 /* WiFiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F52E1A8DFD960026EEB9 /* WiFiNetwork.swift */; };
+		62D3F5311A8E0F800026EEB9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F5301A8E0F800026EEB9 /* SettingsViewController.swift */; };
+		62D3F5331A8E514B0026EEB9 /* SecurePW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F5321A8E514B0026EEB9 /* SecurePW.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		627CC9F41A8F3B5B000A2521 /* KeyChainServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainServices.swift; sourceTree = "<group>"; };
+		627CC9F61A909E46000A2521 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		62BC6D161A7ACE08004A1570 /* LoginNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BC6D1A1A7ACE08004A1570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BC6D1B1A7ACE08004A1570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		62BC6D2B1A7ACE08004A1570 /* LoginNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BC6D301A7ACE08004A1570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BC6D311A7ACE08004A1570 /* LoginNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNowTests.swift; sourceTree = "<group>"; };
+		62D3F52C1A8BE0CD0026EEB9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		62D3F52E1A8DFD960026EEB9 /* WiFiNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiNetwork.swift; sourceTree = "<group>"; };
+		62D3F5301A8E0F800026EEB9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		62D3F5321A8E514B0026EEB9 /* SecurePW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePW.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D3F52D1A8BE0CD0026EEB9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 		62BC6D0D1A7ACE08004A1570 = {
 			isa = PBXGroup;
 			children = (
+				62D3F52C1A8BE0CD0026EEB9 /* SystemConfiguration.framework */,
 				62BC6D181A7ACE08004A1570 /* LoginNow */,
 				62BC6D2E1A7ACE08004A1570 /* LoginNowTests */,
 				62BC6D171A7ACE08004A1570 /* Products */,
@@ -79,7 +93,12 @@
 			children = (
 				62BC6D1B1A7ACE08004A1570 /* AppDelegate.swift */,
 				62BC6D1D1A7ACE08004A1570 /* ViewController.swift */,
+				62D3F5321A8E514B0026EEB9 /* SecurePW.swift */,
+				627CC9F41A8F3B5B000A2521 /* KeyChainServices.swift */,
+				62D3F52E1A8DFD960026EEB9 /* WiFiNetwork.swift */,
+				62D3F5301A8E0F800026EEB9 /* SettingsViewController.swift */,
 				62BC6D1F1A7ACE08004A1570 /* Main.storyboard */,
+				627CC9F61A909E46000A2521 /* Alert.swift */,
 				62BC6D221A7ACE08004A1570 /* Images.xcassets */,
 				62BC6D241A7ACE08004A1570 /* LaunchScreen.xib */,
 				62BC6D191A7ACE08004A1570 /* Supporting Files */,
@@ -161,6 +180,12 @@
 				TargetAttributes = {
 					62BC6D151A7ACE08004A1570 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = T3RY7YUTLE;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					62BC6D2A1A7ACE08004A1570 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -213,7 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BC6D1E1A7ACE08004A1570 /* ViewController.swift in Sources */,
+				62D3F5331A8E514B0026EEB9 /* SecurePW.swift in Sources */,
+				62D3F52F1A8DFD960026EEB9 /* WiFiNetwork.swift in Sources */,
 				62BC6D1C1A7ACE08004A1570 /* AppDelegate.swift in Sources */,
+				62D3F5311A8E0F800026EEB9 /* SettingsViewController.swift in Sources */,
+				627CC9F51A8F3B5B000A2521 /* KeyChainServices.swift in Sources */,
+				627CC9F71A909E46000A2521 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +366,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoginNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,9 +380,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoginNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +443,7 @@
 				62BC6D371A7ACE08004A1570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62BC6D381A7ACE08004A1570 /* Build configuration list for PBXNativeTarget "LoginNowTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				62BC6D3A1A7ACE08004A1570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
